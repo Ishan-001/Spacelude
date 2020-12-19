@@ -14,9 +14,13 @@ public class Player : MonoBehaviour{
 
     public int health;
 
+    public GameObject effect;
+
     void Update()
     {
+
         if(health <=0){
+            Instantiate(effect, transform.position, Quaternion.identity);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
