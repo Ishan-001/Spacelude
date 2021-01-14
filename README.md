@@ -1,3 +1,14 @@
 # Spacelude
 A simple 2-D game made using Unity.
-Made almost all the assets myself.
+
+## Tech Stack
+- Unity 2D
+- C#
+- MS Paint
+
+## Controls
+- Arrow keys for up/down movement
+- Long press right arrow key for speed up
+
+## Screenshot
+- [Feature Image](https://github.com/Ishan-001/Spacelude/blob/master/spacelude.PNG)
